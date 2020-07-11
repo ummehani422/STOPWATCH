@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Muli', sans-serif;
+    background-color: black;
+}
+#hour,#min,#sec,#msec{
+    
+    display: inline-block;    
+    color: white;
+}
+#Stop-Watch{
+    margin-top: 1em;
+    color: black;
+    font-size: 4em;
+    text-decoration: underline;
+    font-style: italic;
+    color: white;
+}
+#A{
+    margin-top: 2em;
+    font-size: 2em;
+    color: white;
+}
+#start,#stop,#reset{
+ border: 1px solid;
+ font-size: 1.5em;
+ margin-top: 8px ;
+ background-color: grey;
+ text-decoration: none;
+ cursor: pointer;
+}
+.B{
+    border: white;
+    display: inline-block;
+    border-radius: 2px;
+}
